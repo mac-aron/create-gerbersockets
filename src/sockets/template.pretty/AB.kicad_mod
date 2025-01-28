@@ -1,0 +1,120 @@
+(footprint "AB"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "GS**"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4e5735ad-6c22-435f-abe2-ae3a386626f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "GND"
+		(at 0 3.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "21e0be66-6c03-438e-86fe-6b498fbbbb62")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "GND"
+		(at 0 2.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bfd76162-fecd-4a2b-b28e-45ddebdb9a6d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc953fab-fab6-4cc0-86c7-82ca001cb398")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9993dc8e-256a-4d00-b234-2fc22601c002")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 0)
+		(end 0 0)
+		(stroke
+			(width 0.065)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "498941b4-9272-49be-b49d-86b0beb6f2b9")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 0)
+		(stroke
+			(width 0.166)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "e3a15d48-a1b6-409c-9f57-8fd17091f98c")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "User.1")
+		(uuid "23663a1d-6b90-47e9-a66c-41d57789e54c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 5.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "818a83e2-d526-4b1b-9a10-49d6442a0e82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 0.1 0.1)
+		(layers "F.Cu")
+		(uuid "0fbb29c6-966e-455f-8d63-9809d747fc81")
+	)
+)

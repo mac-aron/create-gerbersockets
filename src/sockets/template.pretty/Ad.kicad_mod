@@ -1,0 +1,112 @@
+
+(footprint "Ad"
+	(version 20240108)
+	(generator "create-gerbersockets")
+	(generator_version "0.1")
+	(layer "F.Cu")
+	(property "Reference" "GS**"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "19862b52-65d7-4bfa-bc07-14f77b0cd163")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "GND"
+		(at 0 3.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "eb87bd0a-9c2d-48e5-bbd8-7f69c44c1692")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "GND"
+		(at 0 2.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "feff5738-894f-40f4-ba32-83960700156f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a7ab38f-4dc9-47fa-867c-dbf26f0db650")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "add32908-cc8b-4cc4-b1dd-0660672f0f4e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+    	
+	(fp_line
+		(start 0 0)
+		(end 0 0)
+		(stroke
+			(width 0.06501)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "00f9c720-3e8e-4d98-85a5-31fa218d7b19")
+	)	
+	(fp_line
+		(start 0 0)
+		(end 0 0)
+		(stroke
+			(width 0.110001)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "49ba5e04-c74b-4739-970f-8aa4ebc512ec")
+	)
+    
+	(fp_text user "${REFERENCE}"
+		(at 0 5.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1ba08a1a-a54b-4c1a-a27f-842fe835e229")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 0.1 0.1)
+		(layers "F.Cu")
+		(uuid "103e2195-b7b6-4ebc-b5a0-85b603488bfe")
+	)
+)
